@@ -5,8 +5,8 @@ My attempt at the Kaggle NLP disaster tweet classification problem,
 found [here](https://www.kaggle.com/competitions/nlp-getting-started/overview). 
 
 This work was originally developed during an internal mini-hackathon
-where I worked over two days as part of a small team. Here I have 
-tidied and re-factored the code. 
+where I worked over two days as part of a small team. I have since 
+tidied and re-organised the code. 
 
 ## Quick start
 
@@ -16,9 +16,9 @@ Within the `src/` folder there are the three scripts used to pre-process the dat
 `preprocessing.py`, 
 run the training `run_training.py`, and run the inference `run_inference.py`. 
 
-Make sure you have the training and testing data in `data/raw`. 
+Make sure you have the training and testing data in `data/raw/`. 
 Running the processing script will generate the pre-processed data and save it 
-in `data/processed`. 
+in `data/processed/`. 
 
 Run the training script to train a model, using the interactive prompt to 
 choose which model to train and if you want to re-process the data. 
